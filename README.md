@@ -1,6 +1,6 @@
 # Modula-2 Compiler Frontend
 
-[![CI](https://github.com/HarshalShah0508/Modula2-Compiler-Frontend/actions/workflows/ci.yml/badge.svg)](https://github.com/HarshalShah0508/Modula2-Compiler-Frontend/actions/workflows/ci.yml)
+[![CI](https://github.com/HarshalShah0508/Modula2-Compiler-Build/actions/workflows/ci.yml/badge.svg)](https://github.com/HarshalShah0508/Modula2-Compiler-Build/actions/workflows/ci.yml)
 [![Flex](https://img.shields.io/badge/Lexer-Flex-blue?style=flat-square)](https://github.com/westes/flex)
 [![Bison](https://img.shields.io/badge/Parser-GNU%20Bison-blue?style=flat-square)](https://www.gnu.org/software/bison/)
 [![C](https://img.shields.io/badge/C-POSIX-00599C?style=flat-square&logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
@@ -91,7 +91,7 @@ precedence levels. Full CFG and lexical spec (regex per terminal):
 ## Project Structure
 
 ```
-Modula2-Compiler-Frontend/
+Modula2-Compiler-Build/
 ├── phase1-lexical-analysis/     Phase 1: standalone lexer
 │   ├── lexer.l                   Prints a token table (line, type, lexeme)
 │   ├── Makefile                  make / make test / make clean
@@ -126,8 +126,8 @@ deliverables, not one program that grew a second executable bolted on.
 Requires `flex`, `bison`, and `gcc` (or any C99 compiler).
 
 ```bash
-git clone https://github.com/HarshalShah0508/Modula2-Compiler-Frontend.git
-cd Modula2-Compiler-Frontend
+git clone https://github.com/HarshalShah0508/Modula2-Compiler-Build.git
+cd Modula2-Compiler-Build
 
 # Phase 1 — lexer only
 cd phase1-lexical-analysis
