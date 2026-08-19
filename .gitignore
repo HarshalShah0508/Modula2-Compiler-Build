@@ -1,0 +1,11 @@
+# Flex/Bison generated sources
+lex.yy.c
+parser.tab.c
+parser.tab.h
+
+# Compiled binaries
+phase1-lexical-analysis/lexer
+phase2-parser-and-tac/compiler
+*.o
+
+.DS_Store
